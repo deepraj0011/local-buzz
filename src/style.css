@@ -1,8 +1,30 @@
-
-.carousel-item{
-    height: 80vh;
-    overflow: hidden;
+.carousel-item {
+  height: 80vh;
+  overflow: hidden;
 }
 .carousel-item img {
   object-fit: cover;
+}
+
+.search-box {
+    width: 4%;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: -40px;
+  font-size: 30px;
+  /* display: flex;
+  text-align: center;
+  justify-content: center; */
+  width: max-content;
+}
+
+.btn-pink {
+  background: #ff5d96;
+  color: white;
+}
+
+.btn-pink:hover {
+  background: #ff4688;
+  color: white;
 }
