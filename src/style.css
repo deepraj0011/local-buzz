@@ -28,3 +28,41 @@
   background: #ff4688;
   color: white;
 }
+
+span{
+    color: #d489a7;
+    font-weight: 800;
+    outline: none;
+    text-decoration: none;
+}   
+.city-select{
+    border:none;
+}
+.city-select :focus{
+    outline: none;
+    box-shadow: none;
+}
+.city-select option{
+    color: #879ae6 !important;
+    font-weight: 800;
+    outline: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    
+}
+.col svg{
+    height: 100px;
+    width: 100px;
+}
+.col>p{
+    margin-top: 2px;   
+    font-size: 30px;
+}
+.highlight-card img{
+    height:420px;
+    width:70vw;
+    object-fit:cover;
+    border-radius:15px;
+}
